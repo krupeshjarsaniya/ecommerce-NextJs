@@ -1,0 +1,99 @@
+.fontcolour{
+    color: #b8860b;
+}
+.bg-change{
+    background-color: #FCF8F5 !important;
+}
+.price {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .original-price {
+    color: grey;
+    text-decoration: line-through;
+    margin-right: 10px;
+  }
+  .discounted-price {
+    color: goldenrod;
+  }
+  
+  .offer{
+    background-color: #B12A2A;
+    border-radius: 10px;
+    padding: 1px;
+    width: 69px;
+    position: absolute;
+    top: 0;
+    color: white;
+    text-align: center;
+  }
+  .width-input{
+    width: 10% !important;
+  }
+  input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Hide the arrow/spinner in Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.rotating {
+  background-image: url("https://jewelkin-codezeel.myshopify.com/cdn/shop/files/loading.gif?v=1668681782");
+}
+.rotating {
+  background-position: center center;
+  background-repeat: no-repeat;
+  bottom: 0;
+  height: auto;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+  z-index: 1;
+}
+
+.hight{
+  height: 500px;
+  position: relative;
+}
+.react-search-box-dropdown ul {
+  position: absolute;
+  height: 150px;
+  overflow-y: auto;
+}
+
+.search-container div div span input {
+  border-radius:8px ;
+  width: 300px;
+}
+.react-search-box-dropdown{
+  margin: 0px !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 8px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #A02334; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A02334; 
+}

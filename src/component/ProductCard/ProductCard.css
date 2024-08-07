@@ -1,0 +1,60 @@
+.hover-card {
+    overflow: hidden;
+  }
+  
+  .hover-card-img {
+    transition: transform 0.3s ease;
+  }
+  
+  .hover-card:hover .hover-card-img {
+    transform: scale(1.1);
+  }
+  .card-hight img{
+    height: 300px;
+    /* z-index: -1; */
+  }
+  .card-hight {
+    height: 470px;
+    /* z-index: -1; */
+  }
+  
+  .overlay-icon {
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    top: 30%;
+    right: 100px;
+  }
+  
+  
+  .hover-card:hover .overlay-icon {
+    opacity: 1;
+  }
+
+  .price {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .original-price {
+    color: grey;
+    text-decoration: line-through;
+    margin-right: 10px;
+  }
+  .discounted-price {
+    color: goldenrod;
+  }
+  
+  .offer{
+    background-color: #B12A2A;
+    border-radius: 10px;
+    padding: 1px;
+    width: 69px;
+    position: absolute;
+    top: 0;
+    color: white;
+    text-align: center;
+  }
