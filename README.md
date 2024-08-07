@@ -1,1 +1,1 @@
-# ecommers-NextJs
+# e-commerce NextJs
